@@ -66,7 +66,7 @@ function draw() {
         //Enemy bullets kill fighter
         if (bullets[i].hit(fighter)) {
             if (bullets[i].fbullet == false) {
-                //fighter.gameover()
+                fighter.gameover()
             }
         }
 
